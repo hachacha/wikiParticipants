@@ -1,0 +1,1 @@
+java -classpath /Users/wiki/repos/WikipediansByNumberOfEdits_en/build/classes/wikipediansbynumberofedits_en -Xmx6400m -Dbegin.date=2010-01-01 -Dend.date=2014-05-30 -jar /Users/wiki/repos/WikipediansByNumberOfEdits_en/dist/WikipediansByNumberOfEdits_en.jar enwiki-latest-stub-meta-history.xml.gz enwiki-latest-user_groups.sql.gz > res2.txt
