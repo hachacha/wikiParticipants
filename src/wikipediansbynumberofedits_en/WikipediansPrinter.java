@@ -69,7 +69,7 @@ abstract class WikipediansPrinter {
 	}
  
 	public void print(User[] users, UserGroups userGroups, int limit) {
-		try {
+                try {
 			printHeader();
 			Arrays.sort(users, createComparator());
 			writer.print("{| class=\"wikitable" + getSortable() + "\"");
